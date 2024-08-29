@@ -1,0 +1,35 @@
+nav ul{
+    display: flex; /* layout em modelo flexível */
+    flex-direction: row; /* alinha os itens do menu em uma única linha horizontal */
+}
+
+nav #main-menu{
+    float: right;
+    }
+
+nav ul li{
+    list-style: none; /*sem bolinha*/
+    padding: 41px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#main-menu a{
+        color: rgb(254, 254, 254);
+    }
+
+nav{
+    height: 125px; /*altura*/
+    max-width: 100%;
+    background-color: black;
+}
+
+#main-menu a:hover{ /*ANIMAÇÃO FOFA*/
+    color: rgb(255, 194, 25);
+
+}
+nav #logo img{ /*CONFIG DA LOGO*/
+    height: 75px;
+    margin: 25px;
+    float: left;
+}
